@@ -10,12 +10,8 @@ AWS DOC : https://d0.awsstatic.com/Projects/P5505030/aws-project_Jenkins-build-s
 
 - Steps to run after EC2 deployment.
 	1. ssh into EC2 instance.
-	2. run `sudo service jenkins start`
-	<br>
-		If you want add `--httpPort=<port_number>`.
-	3. Open web browser & type `http://<your_server_public_DNS>:8080`
-	<br>
-		Replace *8080* if you gave *custom_port_number*.
+	2. run `sudo service jenkins start`. **If you want add `--httpPort=<port_number>`.**
+	3. Open web browser & type `http://<your_server_public_DNS>:8080`. **Replace *8080* if you gave *custom_port_number*.**
 	4. Enter password found in `/var/lib/jenkins/secrets/initialAdminPassword` file.
 	5. The Jenkins installation script directs you to the Customize Jenkins page. Click Install suggested plugins.
 	6. Once the installation is complete, enter Administrator Credentials, click Save Credentials, and then click Start Using Jenkins
