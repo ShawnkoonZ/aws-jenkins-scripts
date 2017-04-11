@@ -1,6 +1,7 @@
 # This will run Jenkins on the current EC2 instance.
 
 AWS DOC : https://d0.awsstatic.com/Projects/P5505030/aws-project_Jenkins-build-server.pdf
+Good Link : http://sanketdangi.com/post/62715793234/install-configure-jenkins-on-amazon-linux
 
 ## jenkins_setup_hafl.sh
 1. Yum updates.
