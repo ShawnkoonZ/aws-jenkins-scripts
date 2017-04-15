@@ -5,6 +5,6 @@ resource "aws_instance" "shawnkoonz_jenkins_server" {
 	vpc_security_group_ids = ["${aws_security_group.shawnkoonz_jenkins_sg.id}"]
 
 	tags {
-		Name = "tf_ec2_jenkins_server"
+		Name = "tf_jenkins_server_ec2"
 	}
 }
